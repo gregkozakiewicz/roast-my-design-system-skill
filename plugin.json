@@ -32,6 +32,7 @@
         "websiteURL": "https://www.roastds.com",
         "supportURL": "https://github.com/gregkozakiewicz/roast-my-design-system/issues",
         "privacyPolicyURL": "https://www.roastds.com/privacy",
+        "termsOfServiceURL": "https://www.roastds.com/terms",
         "defaultPrompt": [
           "Roast my design system"
         ],
