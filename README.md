@@ -26,9 +26,8 @@ The scan is deterministic and read-only. It needs Node 18 or newer. Nothing leav
 
 ```
 codex plugin marketplace add gregkozakiewicz/roast-my-design-system-skill
+codex plugin add roast-my-design-system@roast-my-design-system-skill
 ```
-
-Then open the plugin browser and install "Roast my design system".
 
 Either way, the first thing to say is "roast my design system".
 
