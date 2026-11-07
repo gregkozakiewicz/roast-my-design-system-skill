@@ -10,6 +10,9 @@
   },
   "homepage": "https://www.roastds.com",
   "repository": "https://github.com/gregkozakiewicz/roast-my-design-system-skill",
+  "documentationUrl": "https://github.com/gregkozakiewicz/roast-my-design-system#readme",
+  "supportUrl": "https://github.com/gregkozakiewicz/roast-my-design-system/issues",
+  "privacyPolicyUrl": "https://www.roastds.com/privacy",
   "license": "MIT",
   "keywords": [
     "design-system",
