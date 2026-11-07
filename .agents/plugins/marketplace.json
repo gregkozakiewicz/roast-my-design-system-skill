@@ -1,0 +1,19 @@
+{
+  "name": "roast-my-design-system-skill",
+  "interface": {
+    "displayName": "Roast my design system"
+  },
+  "plugins": [
+    {
+      "name": "roast-my-design-system",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

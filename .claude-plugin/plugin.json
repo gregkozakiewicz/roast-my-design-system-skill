@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "roast-my-design-system",
+  "displayName": "Roast my design system",
+  "description": "Roast your repo's design system with real data: a 0-100 health score, the receipts behind it (every colour, spacing value, duplicated component and inline style) and the first fixes ranked by payoff. The skill runs the published roast-my-design-system scanner from npm: deterministic, read-only, benchmarked against 119 public repos and 10 reputable design systems, one shareable light/dark HTML report. It can also write the agent rules file that keeps AI-written UI on-system.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Greg Kozakiewicz",
+    "url": "https://gregkozakiewicz.com"
+  },
+  "homepage": "https://roastds.com",
+  "repository": "https://github.com/gregkozakiewicz/roast-my-design-system-skill",
+  "license": "MIT",
+  "keywords": [
+    "design-system",
+    "design-tokens",
+    "css",
+    "audit",
+    "ui-consistency",
+    "tailwind",
+    "shadcn",
+    "react"
+  ]
+}

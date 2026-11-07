@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "roast-my-design-system",
+  "version": "1.0.0",
+  "description": "Roast your repo's design system with real data: a 0-100 health score, the receipts behind it (every colour, spacing value, duplicated component and inline style) and the first fixes ranked by payoff. The skill runs the published roast-my-design-system scanner from npm: deterministic, read-only, benchmarked against 119 public repos and 10 reputable design systems, one shareable light/dark HTML report. It can also write the agent rules file that keeps AI-written UI on-system.",
+  "author": {
+    "name": "Greg Kozakiewicz",
+    "url": "https://gregkozakiewicz.com"
+  },
+  "homepage": "https://roastds.com",
+  "repository": "https://github.com/gregkozakiewicz/roast-my-design-system-skill",
+  "license": "MIT",
+  "keywords": [
+    "design-system",
+    "design-tokens",
+    "css",
+    "audit",
+    "ui-consistency",
+    "tailwind",
+    "shadcn",
+    "react"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Roast my design system",
+        "shortDescription": "Score your design system",
+        "longDescription": "Your AI can write the UI. This makes sure it writes your UI. Ask for a roast and the skill runs the published roast-my-design-system scanner on the current repo: a deterministic, read-only scan that counts everything that betrays a design system, from colours and their near-identical twins to greys, off-scale spacing, duplicated and never-imported components, inline styles and arbitrary Tailwind values. It scores the repo 0-100 against a benchmark of 119 public repos and 10 reputable design systems, writes a shareable light/dark HTML report with the receipts and the first fixes ranked by payoff, and can write the agent rules file that keeps AI-written UI on-system. Nothing leaves your machine.",
+        "developerName": "Greg Kozakiewicz",
+        "category": "Developer Tools",
+        "capabilities": [],
+        "websiteURL": "https://roastds.com",
+        "supportURL": "https://github.com/gregkozakiewicz/roast-my-design-system/issues",
+        "defaultPrompt": [
+          "Roast my design system"
+        ],
+        "brandColor": "#655192",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

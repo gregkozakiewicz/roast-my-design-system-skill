@@ -1,0 +1,46 @@
+{
+  "name": "roast-my-design-system-skill",
+  "description": "The skill edition of roast-my-design-system: one skill that runs the published scanner from npm. A 0-100 design-system score, the receipts, the first fixes, and a shareable HTML report. No hooks, no local server, no scripts inside the plugin.",
+  "owner": {
+    "name": "Greg Kozakiewicz",
+    "url": "https://github.com/gregkozakiewicz"
+  },
+  "plugins": [
+    {
+      "name": "roast-my-design-system",
+      "displayName": "Roast my design system",
+      "description": "Roast your repo's design system with real data: a 0-100 health score, the receipts, and the first fixes ranked by payoff. Runs the published scanner from npm; deterministic, read-only, benchmarked against 119 public repos and 10 reputable design systems, one shareable light/dark HTML report.",
+      "author": {
+        "name": "Greg Kozakiewicz",
+        "url": "https://github.com/gregkozakiewicz"
+      },
+      "category": "design",
+      "tags": [
+        "design-system",
+        "design-tokens",
+        "ui-consistency",
+        "tailwind",
+        "shadcn",
+        "mui",
+        "mantine",
+        "chakra",
+        "ant-design"
+      ],
+      "keywords": [
+        "design-system",
+        "design-tokens",
+        "css",
+        "audit",
+        "lint",
+        "ui-consistency",
+        "tailwind",
+        "react",
+        "ai-agents"
+      ],
+      "homepage": "https://roastds.com",
+      "repository": "https://github.com/gregkozakiewicz/roast-my-design-system-skill",
+      "license": "MIT",
+      "source": "./"
+    }
+  ]
+}
